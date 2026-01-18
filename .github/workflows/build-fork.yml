@@ -2,7 +2,7 @@ name: Build Fork and Push Docker Image
 
 on:
   push:
-    branches: [divergent, develop]
+    branches: [divergent]
   pull_request:
     branches: [divergent]
 
