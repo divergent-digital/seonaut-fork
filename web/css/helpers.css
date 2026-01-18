@@ -57,6 +57,10 @@
 	display: inline;
 }
 
+.hidden {
+	display: none;
+}
+
 .content-centered {
 	display: flex;
 	align-items: center;
