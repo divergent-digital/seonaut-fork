@@ -74,7 +74,7 @@
 
 .project-title {
 	display: flex;
-	align-items: center;
+	align-items: start;
 	padding: calc(var(--line-height) * 2) 3rem 0 3rem;
 }
 
@@ -82,11 +82,27 @@
 	font-size: 1.2rem;
 	margin: 0;
 	font-weight: 400;
-	margin-left: 1rem;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	overflow: hidden;
 	flex: 1;
+}
+
+.project-url {
+  margin-left: 1rem;
+}
+
+.project-link {
+  line-height: 1.4rem;
+}
+
+.project-link:before {
+	content: '├─';
+  margin-right: -0.3rem;
+}
+
+.project-link:last-child:before {
+	content: '└─';
 }
 
 .bg-alert {
